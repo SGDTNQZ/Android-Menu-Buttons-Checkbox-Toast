@@ -24,7 +24,92 @@
         android:gravity="center"
 
         android:text="Select"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/android_green"/>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="iOS phone"
         android:textSize="20dp"
         android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/applePhone_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="Select"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/apple_blue"/>
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:text="Payment"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/creditCard_rbtn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credit card"/>
+        <RadioButton
+            android:id="@+id/cash_rbtn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash "/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:text="Delivery"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/door_cbx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To the door"/>
+    <CheckBox
+        android:id="@+id/pickUp_cbx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick up"/>
+
+    <Button
+        android:id="@+id/deliver_btn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="Deliver"/>
+
 
 </LinearLayout>

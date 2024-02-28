@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title=""/>
-    <item android:title=""/>
-    <item android:title=""/>
-    <item android:title=""/>
+    <item
+        android:id="@+id/samsung_phone"
+        android:title="Samsung"/>
+    <item
+        android:id="@+id/huawei_phone"
+        android:title="Huawei"/>
+    <item
+        android:id="@+id/xiaomi_phone"
+        android:title="Xiaomi"/>
+    <item
+        android:id="@+id/mi9_phone"
+        android:title="Mi9"/>
 </menu>
