@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioCheckBox">
+
+    <LinearLayout
+        android:id="@+id/rate_ll"
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:id="@+id/rate_txtv"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="Rate this lesson"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/rate_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stroke"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/excellent_rbtn"
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Excellent"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/good_rbtn"
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Good"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/okay_rbtn"
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Okay"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/poor_rbtn"
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Poor"
+                android:textSize="20dp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/suggestion_ll"
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:id="@+id/suggestion_txtv"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="Give your few suggestion here"
+            android:textStyle="bold"
+
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:id="@+id/suggestion_checkbox_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stroke"
+            android:orientation="vertical"
+            >
+            <CheckBox
+                android:id="@+id/enjoy_chbx"
+
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="I really enjoy this lesson"
+                android:textSize="20dp"
+                />
+            <CheckBox
+                android:id="@+id/prefer_chbx"
+
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="I will prefer this lesson to else also"
+                android:textSize="20dp"
+                />
+            <CheckBox
+                android:id="@+id/hearMore_chbx"
+
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="I would like to hear more from you"
+                android:textSize="20dp"
+                />
+            <CheckBox
+                android:id="@+id/satisfied_chbx"
+
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="I am satisfied with the content and full description"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/submit_ll"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp">
+        <Button
+            android:id="@+id/submit_btn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/ic_submit_btn"
+
+            android:text="Submit"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+

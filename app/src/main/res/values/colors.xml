@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="android_green">#3DDC84</color>
     <color name="apple_blue">#0088CC</color>
+    <color name="grey">#818181</color>
 </resources>
